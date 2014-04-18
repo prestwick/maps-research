@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     updateMarker = function(lon, lat, transform) {
         
-        var size = new OpenLayers.Size(21.25);
+        var size = new OpenLayers.Size(21,25);
         var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
         var icon = new OpenLayers.Icon('js/img/marker.png', size, offset); 
         var lonLat;
